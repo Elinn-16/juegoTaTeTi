@@ -1,0 +1,31 @@
+.but{
+    background-color:rgb(202, 0, 47);
+}
+.Comenzar{
+    height: auto;
+    width: auto;
+    color:blueviolet;
+}
+.card{
+color: #333;
+display: flex;
+justify-content: center;
+height: 30%;
+width: 30%;
+
+}
+.text1{
+    color: rgb(255, 251, 3);
+}
+.btn-btn-primary{
+    background-color: blueviolet;
+    height: 50%;
+    width: 50%;
+    border-radius: 15%;
+}
+.barras{
+    border-radius: 15%;
+}
+.bi-asterisk{
+    color: rgb(34, 168, 107);
+}
