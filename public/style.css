@@ -1,31 +1,51 @@
-.but{
-    background-color:rgb(202, 0, 47);
+.content-card{
+    background-color: #8A26A6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.Comenzar{
-    height: auto;
-    width: auto;
-    color:blueviolet;
+.card-header{
+    background-color: black;
 }
-.card{
-color: #333;
-display: flex;
-justify-content: center;
-height: 30%;
-width: 30%;
 
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
-.text1{
-    color: rgb(255, 251, 3);
+
+.content {
+    background-color: #fff;
+    padding: 20px; 
+    font-family: Arial, sans-serif;
 }
-.btn-btn-primary{
-    background-color: blueviolet;
-    height: 50%;
-    width: 50%;
-    border-radius: 15%;
+
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
-.barras{
-    border-radius: 15%;
+
+.tateti{
+    display: grid;
+    grid-template-columns: repeat(3, 100px); 
+    grid-gap: 5px; 
+    width: 300px;
 }
-.bi-asterisk{
-    color: rgb(34, 168, 107);
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #F28705;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
 }
