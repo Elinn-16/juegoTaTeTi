@@ -1,3 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
 .content-card{
     background-color: #8A26A6;
     display: flex;
@@ -8,10 +19,12 @@
     background-color: black;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.BrBut{
+    width: auto;
+    height: auto;
+    color: #1ca333;
+    background-color: #ffffff;
+    border-radius:20%;
 }
 
 .content {
@@ -20,15 +33,16 @@ body {
     font-family: Arial, sans-serif;
 }
 
-
-
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+.barras{
+    border-radius: 30%;
+}
+.jugar{
+    background-color: rgb(93, 34, 201);
+    color: #efff0a;
+    border-radius: 20%;
+}
+.T{
+    color: #0721e1;
 }
 
 .tateti{
@@ -38,7 +52,7 @@ body {
     width: 100px;
 }
 
-.cell {
+.tecla {
     width: 100px;
     height: 100px;
     background-color: #F28705;
