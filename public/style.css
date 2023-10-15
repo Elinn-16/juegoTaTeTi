@@ -8,12 +8,75 @@ body {
     height: 100vh;
 
 }
-
+.tecla {
+    width: 100px;
+    height: 100px;
+    background-color: #F28705;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.footer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+    background-color: #efff0a;
+}
+.footer1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin-top: 20%;
+    background-color: #efff0a;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top:10%;
+    background-color: #efff0a;
+}
+.turno{
+    height: auto;
+    width: 20%;
+    border-radius:20% ;
+    background-color: #8A26A6;
+}
+.T{
+    width: 100%;
+    height: 100%;
+    color: #000000;
+}
+.Ganaste{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cont{
+    height: auto;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
 .content-card{
     background-color: #8A26A6;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .card-header{
     background-color: black;
@@ -41,9 +104,7 @@ body {
     color: #efff0a;
     border-radius: 20%;
 }
-.T{
-    color: #0721e1;
-}
+
 
 .tateti{
     display: grid;
@@ -52,17 +113,6 @@ body {
     width: 100px;
 }
 
-.tecla {
-    width: 100px;
-    height: 100px;
-    background-color: #F28705;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    font-weight: bold;
-    cursor: pointer;
-}
 
 
 .conteiner{
