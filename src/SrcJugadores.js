@@ -26,6 +26,26 @@ DPlayer2.addEventListener("click", function ()  {
     jugador2 = "";
 });
 
+document.getElementById("btnJugar").addEventListener("click", function () {
+    const nombreJugador1 = jugador1;
+    const nombreJugador2 = jugador2;
+
+    const urlNombreJugadores = `juego.html?nombrejugador1=${jugador1}&nombrejugador2=${jugador2}`;
+    
+    window.location.href = urlNombreJugadores;
+});
+
+
+const urlParametros = new URLSearchParams(window.location.search);
+
+const nombreJugador1 = urlParams.get("jugador1");
+const nombreJugador2 = urlParams.get("jugador2");
+
+document.getElementById("nombreJugador1").textContent = nombreJugador1;
+document.getElementById("nombreJugador2").textContent = nombreJugador2;
+
+
+
 const Turn = document.getElementById("turnoDe");
 Turn.addEventListener("click", function ()  {
     if (turno % 2 == 0) {
